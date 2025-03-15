@@ -19,7 +19,6 @@ Welcome to the Yelp Data Analysis project by **Team 05**! This project provides 
 ## ⚡ Tech Stack
 
 - **Big Data Processing**: Hadoop, Hive, Zeppelin, PySpark, SQL
-- **Machine Learning**: Scikit-Learn, Surprise, Deep Learning Models
 - **NLP & ChatGPT**: OpenAI API, Text Processing
 - **Recommendation Algorithms**: Collaborative Filtering (SVD, ALS), Content-Based, Graph-Based (GNNs, PageRank)
 - **Geospatial Analysis**: Haversine, KNN
