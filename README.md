@@ -1,97 +1,53 @@
-#Business & Friend Recommendation System
+# Yelp Data Analysis & Recommendation System
 
-##📌 Overview
+## 📌 Overview
 
-This project leverages big data processing and AI-driven recommendations to build an advanced business and friend recommendation system. The system uses collaborative filtering, NLP, and graph-based techniques, integrated with ChatGPT API, to provide accurate and personalized recommendations.
+Welcome to the Yelp Data Analysis project by **Team 05**! This project provides **AI-driven insights and recommendations** based on Yelp's **business, user, and review data**. The system enables **business owners, analysts, and users** to explore **market trends, customer behavior, and restaurant ratings** efficiently.
 
-##🚀 Features
+## 🚀 Features
 
-Requirement 1: Data Analysis and Visualization
+### **Requirement 1: Data Analysis and Visualization**
+- Identify **top merchants, cities, states, and their ratings**.
+- Analyze **restaurant categories, user activity, and review trends**.
+- Track **rating distribution, check-ins, and business performance**.
 
-###I. Business Analysis
+### **Requirement 2: Big Data Application Development**
+- **Friend Recommendation:** Predict **similar users** using **collaborative filtering, content-based, and graph-based methods**.
+- **Business Recommendation:** Recommend businesses using **user preferences, NLP sentiment analysis, and geospatial data**.
+- **ChatGPT API Integration:** Provide **personalized search and business insights**.
 
-Identify the top merchants, cities, and states based on business frequency and ratings.
+## ⚡ Tech Stack
 
-Analyze restaurant types and review distribution.
+- **Big Data Processing**: Hadoop, Hive, Zeppelin, PySpark, SQL
+- **Machine Learning**: Scikit-Learn, Surprise, Deep Learning Models
+- **NLP & ChatGPT**: OpenAI API, Text Processing
+- **Recommendation Algorithms**: Collaborative Filtering (SVD, ALS), Content-Based, Graph-Based (GNNs, PageRank)
+- **Geospatial Analysis**: Haversine, KNN
+- **Web Framework**: Streamlit (for UI)
 
-Extract insights on popular categories and businesses receiving the most five-star reviews.
+## 📌 Usage
 
-###II. User Analysis
+- Use the **Friend Recommendation** module to discover new connections.
+- Find **businesses** based on preferences, location, and sentiment analysis.
+- Interact with **ChatGPT for recommendations and business insights**.
 
-Track user growth and engagement.
+## 🤝 Contributors
 
-Identify top reviewers and most influential users.
+### **Project Manager**
 
-Compare elite users vs. regular users.
+- Mohamed EL FELLAHI ([GitHub: MED05G](https://github.com/MED05G)) - mail: [Mohamed.elfellahi@qq.com](mailto\:Mohamed.elfellahi@qq.com)
 
-###III. Review Analysis
+### **Co-Developers**
 
-Count and rank reviews per year.
+- Aya Mahboub ([GitHub: sweet297](https://github.com/sweet297)) - mail: [mahboubaya10@gmail.com](mailto\:mahboubaya10@gmail.com)
+- Rida Boubakr ([GitHub: LeeRuiDa](https://github.com/LeeRuiDa)) - mail: [ridaboubakr@gmail.com](mailto\:ridaboubakr@gmail.com)
+- Khadija Talbi ([GitHub: khadijatalbiii](https://github.com/khadijatalbiii)) - mail: [khadijatalbi771@gmail.com](mailto\:khadijatalbi771@gmail.com)
 
-Extract the top words in positive and negative reviews.
+## 📜 License
 
-Perform word cloud analysis and word association graphing.
+This project is licensed under the **MIT License**.
 
-###IV. Rating & Check-in Analysis
+---
 
-Analyze rating distribution and trends.
+🚀 **Built with AI, Big Data, and Innovation ❤️**
 
-Track check-ins by year, hour, and city.
-
-###V. Comprehensive Insights
-
-Rank top merchants per city based on ratings, check-ins, and reviews.
-
-Requirement 2: Big Data Application Development
-
-###I. Friend Recommendation System
-
-Collaborative Filtering-Based Recommendations
-
-Compute user similarity (cosine, Pearson correlation).
-
-Suggest friends based on common interests.
-
-Interest-Based (Content-Based Filtering)
-
-Extract user interests from reviews & bios using ChatGPT API.
-
-Compute semantic similarity to recommend friends.
-
-Graph-Based Social Network Recommendation
-
-Build a User-Business-Review Graph and apply GNNs/PageRank.
-
-###II. Business Recommendation System
-
-User Profile-Based Recommendation
-
-Use SVD, ALS, DNN, AutoEncoders to predict preferences.
-
-NLP-Based Recommendations
-
-Extract key business terms and sentiments from reviews using ChatGPT API.
-
-Location-Based Recommendations
-
-Recommend businesses using Haversine formula & KNN.
-
-###III. ChatGPT API for Smart Recommendations
-
-Personalized Chat-Based Search (e.g., "Recommend a Japanese restaurant near me.")
-
-Business Insights (e.g., "Your restaurant has low weekend traffic. Offer discounts.")
-
-##⚡ Tech Stack
-
-Big Data Processing: PySpark, SQL, Zeppelin
-
-Machine Learning: Scikit-Learn, Surprise, Deep Learning Models
-
-NLP & ChatGPT: OpenAI API, Text Processing
-
-Recommendation Algorithms: Collaborative Filtering (SVD, ALS), Content-Based, Graph-Based (GNNs, PageRank)
-
-Geospatial Analysis: Haversine, KNN
-
-Web Framework: Streamlit (for UI)
