@@ -1,4 +1,4 @@
-# Yelp Data Analysis & Recommendation System
+ Yelp Data Analysis & Recommendation System
 
 ## 📌 Overview
 
@@ -42,12 +42,4 @@ Welcome to the Yelp Data Analysis project by **Team 05**! This project provides 
 - Aya Mahboub ([GitHub: sweet297](https://github.com/sweet297)) - mail: [mahboubaya10@gmail.com](mailto\:mahboubaya10@gmail.com)
 - Rida Boubakr ([GitHub: LeeRuiDa](https://github.com/LeeRuiDa)) - mail: [ridaboubakr@gmail.com](mailto\:ridaboubakr@gmail.com)
 - Khadija Talbi ([GitHub: khadijatalbiii](https://github.com/khadijatalbiii)) - mail: [khadijatalbi771@gmail.com](mailto\:khadijatalbi771@gmail.com)
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-🚀 **Built with AI, Big Data, and Innovation ❤️**
 
